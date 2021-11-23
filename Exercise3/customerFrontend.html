@@ -3,14 +3,47 @@
     <head>
         <meta charset="utf-8">
         <title> Exercise 3 </title>
-        <link rel="stylesheet" href="styles.css" type="text/css">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <form action="customerBackend.php">
-            <div class="user_pass">
-                Username: <input type="text" id="username"> <br><br>
-                Password: &nbsp; <input type="text" id="password"> <br><br>
+        <form action="customerBackend.php" onsubmit="return checkForm()">
+            <div>
+                <span class="user_pass_text"> Username: </span> <input class="user_pass" type="text" id="username"> <br><br>
+                <span class="user_pass_text"> Password:&nbsp; </span> <input class="user_pass" type="text" id="password"> <br>
             </div>
+            <h1 class="welcome"> Welcome to our manga store! </h2>
+            <div>
+                <img class="blue_flag" src="blue_flag.jpg" alt="Blue Flag">
+                <img class="haikyuu" src="haikyuu.jpg" alt="Haikyuu">
+                <img class="laid_back_camp" src="laid_back_camp.jpg" alt="Laid Back Camp">
+            </div>
+            <br>
+            <div>
+                <div class="bf_input">
+                    Blue Flag: $11.69 <br><br>
+                    Number of copies: <input class="bf_type" type="text" id="bf_in">
+                </div>
+                <div class="haikyuu_input">
+                    Haikyu!!: $9.99 <br><br>
+                    Number of copies: <input class="haikyuu_type" type="text" id="hk_in">
+                </div>
+                <div class="lbc_input">
+                    Laid Back Camp: $13.00 <br><br>
+                    Number of copies: <input class="lbc_type" type="text" id="lbc_in">
+                </div>
+            </div>
+            <br><br><br><br>
+            <h2 class="ship_title"> Pick shipping type: </h2>
+            <br><br><br><br>
+            <div class="shipping_opts">
+                <input type="radio" name="shipping" id="opt_1" value="0"> Free Shipping ($0.00) <br><br>
+                <input type="radio" name="shipping" id="opt_2" value="5"> Three Day ($5.00) <br><br>
+                <input type="radio" name="shipping" id="opt_3" value="50"> Over Night ($50.00) <br><br>
+            </div>
+            <input class="submit_button" type="submit" value="Submit">
+            <br><br>
+            <input class="reset_button" type="reset" value="Reset">
         </form>
     </body>
+    <script type="text/javascript" src="formChecker.js"></script>
 </html>

@@ -1,0 +1,117 @@
+body
+{
+    background-image: url(background.png);
+    background-size: 100%;
+}
+
+.user_pass
+{
+    color: red;
+}
+
+.user_pass_text
+{
+    margin-left: 10px;
+    color: rgb(235, 111, 111);
+    text-shadow: black 0px 0px 10px;
+}
+
+.welcome
+{
+    margin-left: 10px;
+    color: white;
+    text-shadow: black 0px 0px 15px;
+}
+
+.blue_flag
+{
+    width: 300px;
+    height: 400px;
+    margin-left: 10px;
+    margin-right: 100px;
+    box-shadow: rgb(248, 179, 50) 0px 0px 15px;
+}
+
+.haikyuu
+{
+    width: 300px;
+    height: 400px;
+    margin-right: 100px;
+    box-shadow: rgb(248, 179, 50) 0px 0px 15px;
+}
+
+.laid_back_camp
+{
+    width: 300px;
+    height: 400px;
+    box-shadow: rgb(248, 179, 50) 0px 0px 15px;
+}
+
+.bf_input
+{
+    font-size: 16pt;
+    color: white;
+    text-shadow: red 0px 0px 15px;
+    position: absolute;
+    left: 30px;
+    top: 570px;
+}
+
+.bf_type
+{
+    color: red;
+}
+
+.haikyuu_input
+{
+    font-size: 16pt;
+    color: white;
+    text-shadow: red 0px 0px 15px;
+    position: absolute;
+    left: 440px;
+    top: 570px;
+}
+
+.haikyuu_type
+{
+    color: red;
+}
+
+.lbc_input
+{
+    font-size: 16pt;
+    color: white;
+    text-shadow: red 0px 0px 15px;
+    position: absolute;
+    left: 850px;
+    top: 570px;
+}
+
+.lbc_type
+{
+    color: red;
+}
+
+.ship_title
+{
+    position: absolute;
+    left: 30px;
+    color: orange;
+    text-shadow: black 0px 0px 20px;
+}
+
+.shipping_opts
+{
+    margin-left: 20px;
+    color: white;
+}
+
+.submit_button
+{
+    margin-left: 20px;
+}
+
+.reset_button
+{
+    margin-left: 20px;
+}

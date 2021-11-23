@@ -12,8 +12,9 @@ for ($i = 0; $i <= 100; $i++) {
     if($i == 0) {
       if($j == 0) {
         echo "<td></td>";
+      } else {
+        echo "<td>" . ($j) . "</td>";
       }
-      echo "<td>" . ($j + 1) . "</td>";
     }
     else if ($j == 0) {
       echo "<td>" . ($i) . "</td>";

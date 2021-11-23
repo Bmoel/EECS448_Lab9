@@ -1,0 +1,28 @@
+body
+{
+    background-image: url(background.png);
+    background-size: 100%;
+}
+
+.welcome
+{
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 15pt;
+    margin-left: 10px;
+    color: white;
+    text-shadow: black 0px 0px 25px;
+}
+
+table, th, td
+{
+    margin-left: 15px;
+    border: 1px solid black;
+    background: rgb(179, 184, 241);
+}
+
+.dif_bg
+{
+    background: rgb(137, 216, 137);
+    font-weight: bold;
+}

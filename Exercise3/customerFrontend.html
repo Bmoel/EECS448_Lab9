@@ -6,10 +6,10 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <form action="customerBackend.php" onsubmit="return checkForm()">
+        <form action="customerBackend.php" method="post" onsubmit="return checkForm()">
             <div>
-                <span class="user_pass_text"> Username: </span> <input class="user_pass" type="text" id="username"> <br><br>
-                <span class="user_pass_text"> Password:&nbsp; </span> <input class="user_pass" type="text" id="password"> <br>
+                <span class="user_pass_text"> Username: </span> <input class="user_pass" type="text" id="username" name="user"> <br><br>
+                <span class="user_pass_text"> Password:&nbsp; </span> <input class="user_pass" type="text" id="password" name="pass"> <br>
             </div>
             <h1 class="welcome"> Welcome to our manga store! </h2>
             <div>
@@ -21,15 +21,15 @@
             <div>
                 <div class="bf_input">
                     Blue Flag: $11.69 <br><br>
-                    Number of copies: <input class="bf_type" type="text" id="bf_in">
+                    Number of copies: <input class="bf_type" type="text" id="bf_in" name="bf_in">
                 </div>
                 <div class="haikyuu_input">
                     Haikyu!!: $9.99 <br><br>
-                    Number of copies: <input class="haikyuu_type" type="text" id="hk_in">
+                    Number of copies: <input class="haikyuu_type" type="text" id="hk_in" name="hk_in">
                 </div>
                 <div class="lbc_input">
                     Laid Back Camp: $13.00 <br><br>
-                    Number of copies: <input class="lbc_type" type="text" id="lbc_in">
+                    Number of copies: <input class="lbc_type" type="text" id="lbc_in" name="lbc_in">
                 </div>
             </div>
             <br><br><br><br>
